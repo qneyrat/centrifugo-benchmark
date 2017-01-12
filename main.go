@@ -33,7 +33,7 @@ func newConnection(n int) centrifuge.Centrifuge {
 		Token:     token,
 	}
 
-	wsURL := "ws://ws.bagoo.io/connection/websocket"
+	wsURL := "ws://ws.server.io/connection/websocket"
 	c := centrifuge.NewCentrifuge(wsURL, creds, nil, centrifuge.DefaultConfig)
 
 	err := c.Connect()
