@@ -10,7 +10,7 @@ secret := "admin"
 wsURL := "ws://ws.bagoo.io/connection/websocket"
 ```
 
-Edit nbClient and nbMessag.
+Edit nbClient and nbMessage.
 ```
 const nbClient = 1000
 const nbMessage = 100
